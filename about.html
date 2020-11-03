@@ -7,15 +7,19 @@
     <meta name="viewport" content="width=device-width, inital-scale=1">
     <!-- TITLE TAG -->
     <title>Marc | Front End Web Developer</title>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
     <!-- CSS LINKS-->
-
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
     <!-- HEADER START -->
     <header>
         <!-- Clickable title link that takes you to the index page -->
-        <a href="index.html">
+        <a href="index.html" id="logo">
             <h1>Marc</h1>
             <h2>Front End Web Developer</h2>
         </a>
@@ -24,7 +28,7 @@
             <!-- List of 3 links -->
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#" class="selected">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <!-- NAVIGATION END -->
@@ -32,12 +36,12 @@
         <!-- HEADER END -->
     </header>
 
-    <div>
+    <div id="wrapper">
         <section>
             <!-- START OF FIRST COLUMN -->
 
             <!-- image -->
-            <img src="#">
+            <img src="img/marc.jpeg" class="profile-photo">
             <!-- END OF FIRST COLUMN -->
 
             <!-- START OF SECOND COLUMN -->
@@ -54,9 +58,9 @@
     <!-- FOOTER START-->
     <footer>
         <!-- Twitter link thats clickable and opens in a new tab -->
-        <a href="https://twitter.com" target="_blank"><img src="img/twitter-wrap.png"></a>
+        <a href="https://twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
         <!-- Facebook link thats clickable and opens in a new tab -->
-        <a href="https://facebook.com" target="_blank"><img src="img/facebook-wrap.png"></a>
+        <a href="https://facebook.com" target="_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
         <!-- Copyright info -->
         <p>&copy; 2020 Marc</p>
         <!-- FOOTER END-->
